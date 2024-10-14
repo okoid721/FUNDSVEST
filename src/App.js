@@ -5,7 +5,7 @@ import { PaystackButton } from "react-paystack";
 import "./App.css";
 
 const App = () => {
-  const publicKey = "pk_test_270ed590b74cc5344bd39c6d2730e780135e905b";
+  const publicKey = "pk_live_8957c70815cf86f558774d6b0142ac8679e7011b";
   // const amount = 1000000;
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="container">
-        <div>FUNDSVEST</div>
+        <div>GROWVEST</div>
         <div className="checkout">
           <div className="checkout-form">
             <div className="checkout-field">
